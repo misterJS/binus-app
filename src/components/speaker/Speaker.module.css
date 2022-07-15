@@ -1,0 +1,41 @@
+.yfood-speaker__item {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.yfood-speaker__avatar {
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.yfood-speaker__title-name {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0px !important;
+}
+
+.yfood-speaker__paragraph-small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    margin-top: 0px !important;
+}
+
+.yfood-speaker__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.yfood-speaker__bio {
+    width: 85%;
+}

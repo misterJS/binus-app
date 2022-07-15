@@ -1,0 +1,50 @@
+.yfood-header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F343F;
+    max-width: 100%;
+    width: 99%;
+    flex-direction: row;
+    color: #E2E8F0;
+    padding: 0 16px;
+    height: 68px;
+    align-items: center;
+}
+
+.yfood-header__first-side {
+    display: flex;
+    gap: 32px;
+}
+
+.yfood-header__second-side {
+    display: flex;
+    gap: 30.67px;
+}
+
+.yfood-header__avatar {
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.yfood-header__second-content {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.yfood-header__arrow-down {
+    margin-right: 16px;
+    margin-left: 12px;
+}
+
+.yfood-header__logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border-right: 2px solid #424651;
+    padding-right: 32px;
+}

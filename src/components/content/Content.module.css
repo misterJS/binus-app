@@ -1,0 +1,126 @@
+.yfood-content__wrapper {
+    margin: 20px 112px;
+    display: flex;
+    max-width: 100%;
+}
+
+.yfood-content__first {
+    border-top-left-radius: 16px;
+    background-color: #262A36;
+    color: #E2E8F0;
+    text-align: left;
+    width: 60%;
+    padding: 48px 24px;
+}
+
+.yfood-content__title-desc {
+    display: flex;
+    gap: 10px;
+}
+
+.yfood-content__second-title-desc {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.yfood-content__second {
+    border-top-right-radius: 16px;
+    background-color: #2F343F;
+    color: #E2E8F0;
+    width: 40%;
+    padding: 32px 11px;
+}
+
+.yfood-content__paragraph-small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    overflow-wrap: break-word;
+    inline-size: 314px;
+}
+
+.yfood-content__paragraph_xsmall {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.yfood-content__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.yfood-content__action {
+    color: #E2E8F0;
+    display: flex;
+    gap: 15.61px;
+    align-items: center;
+}
+
+.yfood-content__bold-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px !important;
+}
+
+.yfood-content__speaker {
+    color: #E2E8F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yfood-content__action p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.yfood-content__action img {
+    width: 18.78px;
+}
+
+.yfood-content__section {
+    margin-top: 41px;
+    text-align: left;
+}
+
+.yfood-content__section-flex {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yfood-content__speaker-2 {
+   text-align: left;
+   width: 100%;
+}
+
+.yfood-content__list {
+    margin-left: -25px;
+}
+
+.yfood-content__list li {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.yfood-content__media-flex {
+    display: flex;
+    gap: 17px;
+}
+
+.yfood-content__image-sponsor {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.yfood-content__image-with-tilte {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.yfood-button {
+    background-color: #00A88D;
+    border-radius: 8px;
+    border: none;
+    color: #E2E8F0;
+    padding: 10px 21px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.yfood-button_with-icon {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E2E8F0;
+}
+
+.yfood-button_without-icon {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #E2E8F0;
+}

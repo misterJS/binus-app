@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url("https://use.typekit.net/kqg0pyv.css");
 
 html {
   overflow-x: hidden;
@@ -11,47 +11,46 @@ body {
   overflow-x: hidden;
   min-width: auto;
   margin: 0px !important;
-  background-color: #1C212E;
 }
 
-.yfood-app {
+.binus-app {
   text-align: center;
   overflow-x: hidden;
 }
 
-.yfood-app__wrapper-title-content {
+.binus-app__wrapper-title-content {
   display: flex;
   justify-content: right;
   gap: 25%;
 }
 
-.yfood-app__wrapper-event {
+.binus-app__wrapper-event {
   margin-top: 96px;
   color: #fff;
 }
 
-.yfood-app__wrapper-event p {
+.binus-app__wrapper-event p {
   font-size: 12px;
   line-height: 18px;
   font-weight: 600;
   margin: 0px !important;
 }
 
-.yfood-app__wrapper-second-event {
+.binus-app__wrapper-second-event {
   margin-top: 96px;
   margin-right: 90px;
   color: #fff;
   right: 0;
 }
 
-.yfood-app__wrapper-second-event p {
+.binus-app__wrapper-second-event p {
   font-size: 12px;
   line-height: 18px;
   font-weight: 600;
   margin: 0px !important;
 }
 
-.yfood-app__title-event {
+.binus-app__title-event {
   display: flex;
   gap: 9.61px;
   align-items: center;
@@ -59,13 +58,13 @@ body {
   justify-content: center;
 }
 
-.yfood-app__title-event p {
+.binus-app__title-event p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
 }
 
-.yfood-app__title-second-event {
+.binus-app__title-second-event {
   display: flex;
   gap: 21px;
   align-items: center;

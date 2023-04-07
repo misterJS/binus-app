@@ -1,8 +1,19 @@
 {
-  "name": "yfood-test",
+  "name": "binus-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@azure/msal-browser": "^2.31.0",
+    "@azure/msal-react": "^1.4.10",
+    "@chatscope/chat-ui-kit-react": "^1.9.7",
+    "@chatscope/chat-ui-kit-styles": "^1.4.0",
+    "@chatscope/use-chat": "^2.0.2",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,12 +21,24 @@
     "@types/node": "^16.11.44",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/react-redux": "^7.1.24",
+    "axios": "^1.2.1",
     "classnames": "^2.3.1",
+    "emoji-picker-react": "^4.4.7",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.41.0",
+    "react-hot-toast": "^2.4.0",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "redux-thunk": "^2.4.2",
     "typescript": "^4.7.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,5 +63,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-google-recaptcha": "^2.1.5"
   }
 }

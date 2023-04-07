@@ -1,50 +1,52 @@
-.yfood-header {
+.binus-header {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    background-color: #2F343F;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
     max-width: 100%;
+    z-index: 1;
     width: 99%;
     flex-direction: row;
-    color: #E2E8F0;
+    color: #4F4F4F;
     padding: 0 16px;
     height: 68px;
     align-items: center;
 }
 
-.yfood-header__first-side {
+.binus-header__first-side {
     display: flex;
     gap: 32px;
 }
 
-.yfood-header__second-side {
+.binus-header__second-side {
     display: flex;
     gap: 30.67px;
 }
 
-.yfood-header__avatar {
+.binus-header__avatar {
     border-radius: 100px;
     width: 32px;
     height: 32px;
     object-fit: cover;
 }
 
-.yfood-header__second-content {
+.binus-header__second-content {
     display: flex;
     gap: 8px;
     align-items: center;
     margin-right: 12px;
 }
 
-.yfood-header__arrow-down {
+.binus-header__arrow-down {
     margin-right: 16px;
     margin-left: 12px;
 }
 
-.yfood-header__logo {
+.binus-header__logo {
     display: flex;
     gap: 12px;
     align-items: center;
-    border-right: 2px solid #424651;
     padding-right: 32px;
+    padding-left: 143px;
 }

@@ -1,24 +1,68 @@
-.yfood-button {
-    background-color: #00A88D;
-    border-radius: 8px;
+.binus-button {
+    border-radius: 5px;
     border: none;
-    color: #E2E8F0;
     padding: 10px 21px;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
+    line-height: 16.9px;
 }
 
-.yfood-button_with-icon {
+.binus-button_with-icon {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     color: #E2E8F0;
+    display: flex;
+    gap: 8px;
 }
 
-.yfood-button_without-icon {
+.binus-button_without-icon {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #E2E8F0;
+}
+
+
+/* contained */
+
+.binus-button_primary {
+    background-color: #007BFF !important;
+    color: #FFFFFF !important;
+}
+
+.binus-button_secondary {
+    background-color: #F18700 !important;
+    color: #FFFFFF !important;
+}
+
+.binus-button_info {
+    background: linear-gradient(46.62deg, #485A99 0%, #8A98C7 93.64%);
+    color: #FFFFFF !important;
+}
+
+.binus-button_warning {
+    background: linear-gradient(46.62deg, #FDAD00 0%, #FFDA5B 93.64%);
+    color: #FFFFFF !important;
+}
+
+/* outline */
+
+.binus-button_primary_outline {
+    border-color: #007BFF !important;
+    color: #007BFF !important;
+}
+
+.binus-button_secondary_outline {
+    border-color: #F18700;
+    color: #F18700;
+}
+
+/* text */
+
+.binus-button_primary_text {
+    color: #007BFF;
+}
+
+.binus-button_secondary_text {
+    color: #F18700;
 }

@@ -7,13 +7,13 @@ const SpeakerMemo = (props: ISpeaker) => {
 
     return (
         <>
-            <div className={styles["yfood-speaker"]}>
-                <div className={styles["yfood-speaker__item"]}>
-                    <img className={styles["yfood-speaker__avatar"]} alt="avatar" src={'/photos/people.png'} />
-                    <div className={styles["yfood-speaker__bio"]}>
-                        <p className={styles["yfood-speaker__title-name"]}>Geraldie Tan</p>
-                        <p className={styles["yfood-speaker__paragraph-small"]}>Backend Developer at Yfood</p>
-                        <p className={styles["yfood-speaker__description"]}>Loremo ipsum this is my biograhphy bwkda Loremo ipsum this is my biograhphy bwkda despacito wara wiri kesana kemari</p>
+            <div className={styles["binus-speaker"]}>
+                <div className={styles["binus-speaker__item"]}>
+                    <img className={styles["binus-speaker__avatar"]} alt="avatar" src={'/photos/people.png'} />
+                    <div className={styles["binus-speaker__bio"]}>
+                        <p className={styles["binus-speaker__title-name"]}>Geraldie Tan</p>
+                        <p className={styles["binus-speaker__paragraph-small"]}>Backend Developer at binus</p>
+                        <p className={styles["binus-speaker__description"]}>Loremo ipsum this is my biograhphy bwkda Loremo ipsum this is my biograhphy bwkda despacito wara wiri kesana kemari</p>
                     </div>
                     {!noAction &&
                         <>
@@ -21,12 +21,12 @@ const SpeakerMemo = (props: ISpeaker) => {
                             <img alt="pencil" src={'/icons/pencil.svg'} />
                         </>}
                 </div>
-                <div className={styles["yfood-speaker__item"]}>
-                    <img className={styles["yfood-speaker__avatar"]} alt="avatar" src={'/photos/people.png'} />
-                    <div className={styles["yfood-speaker__bio"]}>
-                        <p className={styles["yfood-speaker__title-name"]}>Geraldie Tan</p>
-                        <p className={styles["yfood-speaker__paragraph-small"]}>Backend Developer at Yfood</p>
-                        <p className={styles["yfood-speaker__description"]}>Loremo ipsum this is my biograhphy bwkda Loremo ipsum this is my biograhphy bwkda despacito wara wiri kesana kemari</p>
+                <div className={styles["binus-speaker__item"]}>
+                    <img className={styles["binus-speaker__avatar"]} alt="avatar" src={'/photos/people.png'} />
+                    <div className={styles["binus-speaker__bio"]}>
+                        <p className={styles["binus-speaker__title-name"]}>Geraldie Tan</p>
+                        <p className={styles["binus-speaker__paragraph-small"]}>Backend Developer at binus</p>
+                        <p className={styles["binus-speaker__description"]}>Loremo ipsum this is my biograhphy bwkda Loremo ipsum this is my biograhphy bwkda despacito wara wiri kesana kemari</p>
                     </div>
                     {!noAction &&
                         <>
@@ -34,12 +34,12 @@ const SpeakerMemo = (props: ISpeaker) => {
                             <img alt="pencil" src={'/icons/pencil.svg'} />
                         </>}
                 </div>
-                <div className={styles["yfood-speaker__item"]}>
-                    <img className={styles["yfood-speaker__avatar"]} alt="avatar" src={'/photos/people.png'} />
-                    <div className={styles["yfood-speaker__bio"]}>
-                        <p className={styles["yfood-speaker__title-name"]}>Geraldie Tan</p>
-                        <p className={styles["yfood-speaker__paragraph-small"]}>Backend Developer at Yfood</p>
-                        <p className={styles["yfood-speaker__description"]}>Loremo ipsum this is my biograhphy bwkda Loremo ipsum this is my biograhphy bwkda despacito wara wiri kesana kemari</p>
+                <div className={styles["binus-speaker__item"]}>
+                    <img className={styles["binus-speaker__avatar"]} alt="avatar" src={'/photos/people.png'} />
+                    <div className={styles["binus-speaker__bio"]}>
+                        <p className={styles["binus-speaker__title-name"]}>Geraldie Tan</p>
+                        <p className={styles["binus-speaker__paragraph-small"]}>Backend Developer at binus</p>
+                        <p className={styles["binus-speaker__description"]}>Loremo ipsum this is my biograhphy bwkda Loremo ipsum this is my biograhphy bwkda despacito wara wiri kesana kemari</p>
                     </div>
                     {!noAction &&
                         <>

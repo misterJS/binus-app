@@ -1,30 +1,38 @@
-import { Content } from '../components/content';
-import { Header } from '../components/header';
-import { Sidebar } from '../components/sidebar';
-import styles from './App.module.css';
+import { PublicClientApplication } from "@azure/msal-browser";
+import { MsalProvider } from "@azure/msal-react";
+import {
+  createTheme,
+  ThemeProvider
+} from '@mui/material';
+import { Toaster } from "react-hot-toast";
+import { msalConfig } from "../authConfig";
+import AdminRoutes from '../routes/AdminRoutes';
+import UserRoutes from '../routes/UserRoutes';
+
+const THEME = createTheme({
+  typography: {
+    "fontFamily": `"montserrat", sans-serif`
+  },
+  palette: {
+    text: {
+      disabled: '#000'
+    },
+  }
+});
 
 function App() {
-  return (
-    <div className={styles["yfood-app"]}>
-      <Header />
-      <Sidebar />
-      <div  className={styles["yfood-app__wrapper-title-content"]}>
-        <div className={styles["yfood-app__wrapper-event"]}>
-          <div className={styles["yfood-app__title-event"]}>
-            <p>CREATE EVENT</p>
-            <img alt="carret-down" src={'/icons/carretDown.svg'} />
-          </div>
-        </div>
+  const msalInstance = new PublicClientApplication(msalConfig);
 
-        <div className={styles["yfood-app__wrapper-second-event"]}>
-          <div className={styles["yfood-app__title-second-event"]}>
-            <p>Some module are hide, check here !</p>
-            <img alt="setting-fill" src={'/icons/settingFill.svg'} />
-          </div>
+  return (
+    <MsalProvider instance={msalInstance}>
+      <ThemeProvider theme={THEME}>
+        <div className="App">
+          <AdminRoutes />
+          <UserRoutes />
+          <Toaster />
         </div>
-      </div>
-      <Content />
-    </div>
+      </ThemeProvider>
+    </MsalProvider>
   );
 }
 

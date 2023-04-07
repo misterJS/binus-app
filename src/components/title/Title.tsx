@@ -8,9 +8,9 @@ const TitleMemo = (props: ITitle) => {
 
     const variantStyle = useMemo(
         () => ({
-            [styles["yfood-title-green"]]: variant === "green",
-            [styles["yfood-title-orange"]]: variant === "orange",
-            [styles["yfood-title-bigWhite"]]: variant === "bigWhite",
+            [styles["binus-title-green"]]: variant === "green",
+            [styles["binus-title-orange"]]: variant === "orange",
+            [styles["binus-title-bigWhite"]]: variant === "bigWhite",
         }),
         [variant]
     );

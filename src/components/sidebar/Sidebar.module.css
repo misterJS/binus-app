@@ -1,17 +1,22 @@
-.yfood-sidebar {
+.binus-sidebar {
     position: absolute;
     display: flex;
-    left: 0px;
     flex-direction: column;
-    background-color: #2F343F;
-    color: #E2E8F0;
+    background-color: #FFFFFF;
+    border-right: 1px solid #E0E0E0;
+    color: #5E5873;
     height: 200%;
-    width: auto;
-    top: 68px;
+    min-width: 260px;
+    top: 72px;
     align-items: center;
 }
 
-.yfood-sidebar img {
-    margin: 16px 24px;
-    width: 20px;
+.binus-sidebar_item {
+    align-items: center;
+    height: 42px;
+}
+
+.binus-sidebar img {
+    margin: 0px 10px;
+    width: 18px;
 }

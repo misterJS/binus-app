@@ -2,21 +2,53 @@ import { memo, useMemo } from "react"
 import { IButton } from "./Button.types";
 import styles from "./Button.module.css"
 import classNames from "classnames";
+import { Button as MuiButton } from '@mui/material';
 
 const ButtonMemo = (props: IButton) => {
-    const { title, withIcon } = props;
+    const {
+        children,
+        withIcon,
+        variant,
+        type,
+        fullwidth,
+        color,
+        style
+    } = props;
+    
 
     const withIconStyle = useMemo(
         () => ({
-            [styles["yfood-button_with-icon"]]: withIcon === true,
-            [styles["yfood-button_without-icon"]]: withIcon === false,
+            [styles["binus-button_with-icon"]]: withIcon === true,
+            [styles["binus-button_without-icon"]]: withIcon === false,
         }),
         [withIcon]
     );
 
+    const ColorStyle = useMemo(
+        () => ({
+            [styles["binus-button_primary"]]: color === "primary" && variant === "contained",
+            [styles["binus-button_secondary"]]: color === "secondary" && variant === "contained",
+            [styles["binus-button_info"]]: color === "info" && variant === "contained",
+            [styles["binus-button_warning"]]: color === "warning" && variant === "contained",
+            [styles["binus-button_primary_outline"]]: color === "primary" && variant === "outlined",
+            [styles["binus-button_secondary_outline"]]: color === "secondary" && variant === "outlined",
+            [styles["binus-button_primary_text"]]: color === "primary" && variant === "text",
+            [styles["binus-button_secondary_text"]]: color === "secondary" && variant === "text",
+        }),
+        [color]
+    );
+
     return (
         <>
-            <button className={classNames(styles["yfood-button"], withIconStyle)}>{title}</button>
+            <MuiButton
+                fullWidth={fullwidth}
+                variant={variant}
+                type={type}
+                sx={style}
+                className={classNames(styles["binus-button"], withIconStyle, ColorStyle)}
+            >
+                {children}
+            </MuiButton>
         </>
     )
 }
